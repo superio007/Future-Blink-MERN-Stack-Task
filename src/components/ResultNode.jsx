@@ -1,12 +1,12 @@
 import { Handle, Position } from "@xyflow/react";
+import LoadingSpinner from "./LoadingSpinner";
 
 const ResultNode = ({ data }) => {
   const getDisplayContent = () => {
     if (data.loading) {
       return (
         <div className="flex items-center justify-center h-24">
-          <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-green-500"></div>
-          <span className="ml-2 text-gray-600">Processing...</span>
+          <LoadingSpinner size="md" text="Processing..." />
         </div>
       );
     }

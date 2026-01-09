@@ -10,13 +10,10 @@ class OpenRouterClient {
     this.baseUrl = "https://openrouter.ai/api/v1";
     this.siteUrl = process.env.SITE_URL || "http://localhost:3000";
 
-    // Free models available on OpenRouter
-    this.freeModels = [
-      "google/gemini-2.0-flash-lite-preview-02-05:free",
-      "mistralai/mistral-7b-instruct:free",
-    ];
+    // Free models available on OpenRouter (verified working)
+    this.freeModels = ["mistralai/mistral-7b-instruct:free"];
 
-    // Default to Gemini model
+    // Default to Mistral model (since it's working)
     this.defaultModel = this.freeModels[0];
 
     if (!this.apiKey) {

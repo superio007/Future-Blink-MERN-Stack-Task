@@ -3,7 +3,7 @@ require("dotenv").config();
 
 const testOpenRouterDirect = () => {
   const postData = JSON.stringify({
-    model: "google/gemini-2.0-flash-lite-preview-02-05:free",
+    model: "google/gemini-flash-1.5:free",
     messages: [
       {
         role: "user",
