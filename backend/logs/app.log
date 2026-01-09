@@ -1,0 +1,372 @@
+{"timestamp":"2026-01-09T07:31:35.114Z","level":"INFO","message":"Server started successfully","port":"5000","environment":"development","nodeVersion":"v22.16.0"}
+{"timestamp":"2026-01-09T07:31:55.172Z","level":"INFO","message":"API Request","method":"GET","url":"/health","ip":"::1"}
+{"timestamp":"2026-01-09T07:31:55.177Z","level":"INFO","message":"API Response","method":"GET","url":"/health","statusCode":200,"duration":"5ms"}
+{"timestamp":"2026-01-09T07:31:55.190Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:31:55.192Z","level":"INFO","message":"AI request received","promptLength":61,"ip":"::1"}
+{"timestamp":"2026-01-09T07:31:57.177Z","level":"INFO","message":"AI request completed successfully","duration":"1985ms","responseLength":44,"ip":"::1"}
+{"timestamp":"2026-01-09T07:31:57.180Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"1990ms"}
+{"timestamp":"2026-01-09T07:31:57.185Z","level":"INFO","message":"API Request","method":"POST","url":"/api/save","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:31:57.186Z","level":"INFO","message":"Save request received","promptLength":61,"responseLength":44,"ip":"::1"}
+{"timestamp":"2026-01-09T07:31:57.215Z","level":"INFO","message":"Save request completed successfully","duration":"29ms","documentId":"6960aeed75e80d1b3bcebcea","ip":"::1"}
+{"timestamp":"2026-01-09T07:31:57.217Z","level":"INFO","message":"API Response","method":"POST","url":"/api/save","statusCode":201,"duration":"32ms"}
+{"timestamp":"2026-01-09T07:31:57.221Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:31:57.221Z","level":"INFO","message":"AI request received","promptLength":54,"ip":"::1"}
+{"timestamp":"2026-01-09T07:32:04.578Z","level":"INFO","message":"AI request completed successfully","duration":"7357ms","responseLength":1193,"ip":"::1"}
+{"timestamp":"2026-01-09T07:32:04.580Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"7359ms"}
+{"timestamp":"2026-01-09T07:32:04.586Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:32:04.588Z","level":"INFO","message":"AI request received","promptLength":0,"ip":"::1"}
+{"timestamp":"2026-01-09T07:32:04.589Z","level":"WARN","message":"Invalid prompt validation","errors":["Prompt is required"],"ip":"::1"}
+{"timestamp":"2026-01-09T07:32:04.593Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":400,"duration":"7ms"}
+{"timestamp":"2026-01-09T07:32:04.597Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:32:04.600Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":400,"duration":"3ms"}
+{"timestamp":"2026-01-09T07:32:04.603Z","level":"ERROR","message":"Unexpected token 'i', \"invalid json\" is not valid JSON","name":"SyntaxError","stack":"SyntaxError: Unexpected token 'i', \"invalid json\" is not valid JSON\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\body-parser\\lib\\types\\json.js:116:10)\n    at parse (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\body-parser\\lib\\types\\json.js:68:15)\n    at C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\body-parser\\lib\\read.js:163:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)","params":{},"query":{},"request":{"method":"POST","url":"/api/ask-ai","ip":"::1"}}
+{"timestamp":"2026-01-09T07:32:04.609Z","level":"INFO","message":"API Request","method":"POST","url":"/api/save","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:32:04.610Z","level":"INFO","message":"Save request received","promptLength":0,"responseLength":13,"ip":"::1"}
+{"timestamp":"2026-01-09T07:32:04.611Z","level":"WARN","message":"Invalid save data validation","errors":["Prompt is required"],"ip":"::1"}
+{"timestamp":"2026-01-09T07:32:04.614Z","level":"INFO","message":"API Response","method":"POST","url":"/api/save","statusCode":400,"duration":"5ms"}
+{"timestamp":"2026-01-09T07:32:04.616Z","level":"INFO","message":"API Request","method":"POST","url":"/api/save","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:32:04.619Z","level":"INFO","message":"API Response","method":"POST","url":"/api/save","statusCode":400,"duration":"3ms"}
+{"timestamp":"2026-01-09T07:32:04.621Z","level":"INFO","message":"API Request","method":"GET","url":"/api/nonexistent","ip":"::1"}
+{"timestamp":"2026-01-09T07:32:04.623Z","level":"WARN","message":"Route not found","method":"GET","url":"/api/nonexistent","ip":"::1"}
+{"timestamp":"2026-01-09T07:32:04.624Z","level":"INFO","message":"API Response","method":"GET","url":"/api/nonexistent","statusCode":404,"duration":"3ms"}
+{"timestamp":"2026-01-09T07:32:04.626Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:32:04.627Z","level":"INFO","message":"AI request received","promptLength":22,"ip":"::1"}
+{"timestamp":"2026-01-09T07:32:11.393Z","level":"INFO","message":"AI request completed successfully","duration":"6766ms","responseLength":1448,"ip":"::1"}
+{"timestamp":"2026-01-09T07:32:11.395Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"6769ms"}
+{"timestamp":"2026-01-09T07:32:11.398Z","level":"INFO","message":"API Request","method":"GET","url":"/api/test","ip":"::1"}
+{"timestamp":"2026-01-09T07:32:11.400Z","level":"INFO","message":"API Response","method":"GET","url":"/api/test","statusCode":200,"duration":"2ms"}
+{"timestamp":"2026-01-09T07:32:11.402Z","level":"INFO","message":"API Request","method":"POST","url":"/api/save","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:32:11.403Z","level":"INFO","message":"Save request received","promptLength":38,"responseLength":40,"ip":"::1"}
+{"timestamp":"2026-01-09T07:32:11.414Z","level":"INFO","message":"Save request completed successfully","duration":"11ms","documentId":"6960aefb75e80d1b3bcebcec","ip":"::1"}
+{"timestamp":"2026-01-09T07:32:11.415Z","level":"INFO","message":"API Response","method":"POST","url":"/api/save","statusCode":201,"duration":"13ms"}
+{"timestamp":"2026-01-09T07:33:00.909Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:33:00.910Z","level":"INFO","message":"AI request received","promptLength":46,"ip":"::1"}
+{"timestamp":"2026-01-09T07:33:02.202Z","level":"INFO","message":"AI request completed successfully","duration":"1292ms","responseLength":2,"ip":"::1"}
+{"timestamp":"2026-01-09T07:33:02.203Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"1294ms"}
+{"timestamp":"2026-01-09T07:33:03.218Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:33:03.219Z","level":"INFO","message":"AI request received","promptLength":32,"ip":"::1"}
+{"timestamp":"2026-01-09T07:33:04.832Z","level":"INFO","message":"AI request completed successfully","duration":"1613ms","responseLength":71,"ip":"::1"}
+{"timestamp":"2026-01-09T07:33:04.835Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"1617ms"}
+{"timestamp":"2026-01-09T07:33:05.845Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:33:05.847Z","level":"INFO","message":"AI request received","promptLength":29,"ip":"::1"}
+{"timestamp":"2026-01-09T07:33:07.307Z","level":"INFO","message":"AI request completed successfully","duration":"1460ms","responseLength":41,"ip":"::1"}
+{"timestamp":"2026-01-09T07:33:07.308Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"1463ms"}
+{"timestamp":"2026-01-09T07:33:08.315Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:33:08.316Z","level":"INFO","message":"AI request received","promptLength":72,"ip":"::1"}
+{"timestamp":"2026-01-09T07:33:13.228Z","level":"INFO","message":"AI request completed successfully","duration":"4911ms","responseLength":388,"ip":"::1"}
+{"timestamp":"2026-01-09T07:33:13.231Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"4916ms"}
+{"timestamp":"2026-01-09T07:33:14.241Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:33:14.243Z","level":"INFO","message":"AI request received","promptLength":30,"ip":"::1"}
+{"timestamp":"2026-01-09T07:33:14.962Z","level":"INFO","message":"AI request completed successfully","duration":"719ms","responseLength":1,"ip":"::1"}
+{"timestamp":"2026-01-09T07:33:14.964Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"723ms"}
+{"timestamp":"2026-01-09T07:33:14.970Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:33:14.971Z","level":"INFO","message":"AI request received","promptLength":18,"ip":"::1"}
+{"timestamp":"2026-01-09T07:33:16.098Z","level":"INFO","message":"AI request completed successfully","duration":"1127ms","responseLength":25,"ip":"::1"}
+{"timestamp":"2026-01-09T07:33:16.101Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"1131ms"}
+{"timestamp":"2026-01-09T07:33:16.605Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:33:16.605Z","level":"INFO","message":"AI request received","promptLength":18,"ip":"::1"}
+{"timestamp":"2026-01-09T07:33:18.042Z","level":"INFO","message":"AI request completed successfully","duration":"1437ms","responseLength":14,"ip":"::1"}
+{"timestamp":"2026-01-09T07:33:18.043Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"1438ms"}
+{"timestamp":"2026-01-09T07:33:18.559Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:33:18.560Z","level":"INFO","message":"AI request received","promptLength":18,"ip":"::1"}
+{"timestamp":"2026-01-09T07:33:20.177Z","level":"INFO","message":"AI request completed successfully","duration":"1617ms","responseLength":19,"ip":"::1"}
+{"timestamp":"2026-01-09T07:33:20.178Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"1619ms"}
+{"timestamp":"2026-01-09T07:37:09.338Z","level":"INFO","message":"API Request","method":"GET","url":"/health","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:37:09.340Z","level":"INFO","message":"API Response","method":"GET","url":"/health","statusCode":200,"duration":"2ms"}
+{"timestamp":"2026-01-09T07:37:09.344Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:37:09.345Z","level":"INFO","message":"AI request received","promptLength":26,"ip":"::1"}
+{"timestamp":"2026-01-09T07:37:10.502Z","level":"INFO","message":"AI request completed successfully","duration":"1157ms","responseLength":5,"ip":"::1"}
+{"timestamp":"2026-01-09T07:37:10.504Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"1160ms"}
+{"timestamp":"2026-01-09T07:37:10.505Z","level":"INFO","message":"API Request","method":"POST","url":"/api/save","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:37:10.506Z","level":"INFO","message":"Save request received","promptLength":11,"responseLength":13,"ip":"::1"}
+{"timestamp":"2026-01-09T07:37:10.526Z","level":"INFO","message":"Save request completed successfully","duration":"20ms","documentId":"6960b02675e80d1b3bcebcee","ip":"::1"}
+{"timestamp":"2026-01-09T07:37:10.527Z","level":"INFO","message":"API Response","method":"POST","url":"/api/save","statusCode":201,"duration":"22ms"}
+{"timestamp":"2026-01-09T07:38:45.538Z","level":"INFO","message":"API Request","method":"GET","url":"/health","ip":"::1"}
+{"timestamp":"2026-01-09T07:38:45.539Z","level":"INFO","message":"API Response","method":"GET","url":"/health","statusCode":200,"duration":"1ms"}
+{"timestamp":"2026-01-09T07:38:45.544Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:38:45.545Z","level":"INFO","message":"AI request received","promptLength":55,"ip":"::1"}
+{"timestamp":"2026-01-09T07:39:10.559Z","level":"ERROR","message":"AI request failed","error":"AI request timeout","duration":"25007ms","ip":"::1","stack":"Error: AI request timeout\n    at Timeout._onTimeout (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\routes\\ai.js:61:33)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)"}
+{"timestamp":"2026-01-09T07:39:10.563Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":503,"duration":"25019ms"}
+{"timestamp":"2026-01-09T07:39:10.574Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:39:10.576Z","level":"INFO","message":"AI request received","promptLength":14,"ip":"::1"}
+{"timestamp":"2026-01-09T07:39:12.187Z","level":"INFO","message":"AI request completed successfully","duration":"1611ms","responseLength":8,"ip":"::1"}
+{"timestamp":"2026-01-09T07:39:12.188Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"1614ms"}
+{"timestamp":"2026-01-09T07:39:12.700Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:39:12.701Z","level":"INFO","message":"AI request received","promptLength":36,"ip":"::1"}
+{"timestamp":"2026-01-09T07:39:24.783Z","level":"INFO","message":"AI request completed successfully","duration":"12082ms","responseLength":128,"ip":"::1"}
+{"timestamp":"2026-01-09T07:39:24.784Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"12084ms"}
+{"timestamp":"2026-01-09T07:39:25.291Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:39:25.292Z","level":"INFO","message":"AI request received","promptLength":19,"ip":"::1"}
+{"timestamp":"2026-01-09T07:39:27.811Z","level":"INFO","message":"AI request completed successfully","duration":"2519ms","responseLength":507,"ip":"::1"}
+{"timestamp":"2026-01-09T07:39:27.813Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"2522ms"}
+{"timestamp":"2026-01-09T07:39:28.318Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:39:28.319Z","level":"INFO","message":"AI request received","promptLength":0,"ip":"::1"}
+{"timestamp":"2026-01-09T07:39:28.320Z","level":"WARN","message":"Invalid prompt validation","errors":["Prompt is required"],"ip":"::1"}
+{"timestamp":"2026-01-09T07:39:28.322Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":400,"duration":"4ms"}
+{"timestamp":"2026-01-09T07:39:28.324Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:39:28.325Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":400,"duration":"1ms"}
+{"timestamp":"2026-01-09T07:39:28.327Z","level":"ERROR","message":"Unexpected token 'i', \"invalid json\" is not valid JSON","name":"SyntaxError","stack":"SyntaxError: Unexpected token 'i', \"invalid json\" is not valid JSON\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\body-parser\\lib\\types\\json.js:116:10)\n    at parse (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\body-parser\\lib\\types\\json.js:68:15)\n    at C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\body-parser\\lib\\read.js:163:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)","params":{},"query":{},"request":{"method":"POST","url":"/api/ask-ai","ip":"::1"}}
+{"timestamp":"2026-01-09T07:39:28.329Z","level":"INFO","message":"API Request","method":"POST","url":"/api/save","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:39:28.331Z","level":"INFO","message":"Save request received","promptLength":0,"responseLength":4,"ip":"::1"}
+{"timestamp":"2026-01-09T07:39:28.332Z","level":"WARN","message":"Invalid save data validation","errors":["Prompt is required"],"ip":"::1"}
+{"timestamp":"2026-01-09T07:39:28.334Z","level":"INFO","message":"API Response","method":"POST","url":"/api/save","statusCode":400,"duration":"5ms"}
+{"timestamp":"2026-01-09T07:39:28.336Z","level":"INFO","message":"API Request","method":"POST","url":"/api/save","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:39:28.337Z","level":"INFO","message":"API Response","method":"POST","url":"/api/save","statusCode":400,"duration":"1ms"}
+{"timestamp":"2026-01-09T07:39:28.340Z","level":"INFO","message":"API Request","method":"GET","url":"/api/nonexistent","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:39:28.341Z","level":"WARN","message":"Route not found","method":"GET","url":"/api/nonexistent","ip":"::1"}
+{"timestamp":"2026-01-09T07:39:28.341Z","level":"INFO","message":"API Response","method":"GET","url":"/api/nonexistent","statusCode":404,"duration":"1ms"}
+{"timestamp":"2026-01-09T07:39:28.343Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T07:39:28.344Z","level":"INFO","message":"AI request received","promptLength":26,"ip":"::1"}
+{"timestamp":"2026-01-09T07:39:35.233Z","level":"INFO","message":"AI request completed successfully","duration":"6889ms","responseLength":3073,"ip":"::1"}
+{"timestamp":"2026-01-09T07:39:35.234Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"6891ms"}
+{"timestamp":"2026-01-09T07:39:35.235Z","level":"INFO","message":"API Request","method":"GET","url":"/health","ip":"::1"}
+{"timestamp":"2026-01-09T07:39:35.236Z","level":"INFO","message":"API Response","method":"GET","url":"/health","statusCode":200,"duration":"1ms"}
+{"timestamp":"2026-01-09T08:07:43.802Z","level":"INFO","message":"API Request","method":"GET","url":"/health","ip":"::1"}
+{"timestamp":"2026-01-09T08:07:43.804Z","level":"INFO","message":"API Response","method":"GET","url":"/health","statusCode":200,"duration":"2ms"}
+{"timestamp":"2026-01-09T08:07:43.809Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:07:43.810Z","level":"INFO","message":"AI request received","promptLength":53,"ip":"::1"}
+{"timestamp":"2026-01-09T08:07:47.110Z","level":"INFO","message":"AI request completed successfully","duration":"3300ms","responseLength":333,"ip":"::1"}
+{"timestamp":"2026-01-09T08:07:47.112Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"3303ms"}
+{"timestamp":"2026-01-09T08:07:47.115Z","level":"INFO","message":"API Request","method":"POST","url":"/api/save","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:07:47.117Z","level":"INFO","message":"Save request received","promptLength":53,"responseLength":333,"ip":"::1"}
+{"timestamp":"2026-01-09T08:07:47.139Z","level":"INFO","message":"Save request completed successfully","duration":"22ms","documentId":"6960b75375e80d1b3bcebcf0","ip":"::1"}
+{"timestamp":"2026-01-09T08:07:47.140Z","level":"INFO","message":"API Response","method":"POST","url":"/api/save","statusCode":201,"duration":"25ms"}
+{"timestamp":"2026-01-09T08:07:47.142Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:07:47.143Z","level":"INFO","message":"AI request received","promptLength":15,"ip":"::1"}
+{"timestamp":"2026-01-09T08:07:50.517Z","level":"INFO","message":"AI request completed successfully","duration":"3374ms","responseLength":8,"ip":"::1"}
+{"timestamp":"2026-01-09T08:07:50.519Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"3377ms"}
+{"timestamp":"2026-01-09T08:07:51.528Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:07:51.529Z","level":"INFO","message":"AI request received","promptLength":35,"ip":"::1"}
+{"timestamp":"2026-01-09T08:07:55.220Z","level":"INFO","message":"AI request completed successfully","duration":"3691ms","responseLength":182,"ip":"::1"}
+{"timestamp":"2026-01-09T08:07:55.221Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"3693ms"}
+{"timestamp":"2026-01-09T08:07:56.225Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:07:56.226Z","level":"INFO","message":"AI request received","promptLength":30,"ip":"::1"}
+{"timestamp":"2026-01-09T08:07:57.063Z","level":"INFO","message":"AI request completed successfully","duration":"837ms","responseLength":42,"ip":"::1"}
+{"timestamp":"2026-01-09T08:07:57.065Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"840ms"}
+{"timestamp":"2026-01-09T08:07:58.070Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:07:58.070Z","level":"INFO","message":"AI request received","promptLength":0,"ip":"::1"}
+{"timestamp":"2026-01-09T08:07:58.071Z","level":"WARN","message":"Invalid prompt validation","errors":["Prompt is required"],"ip":"::1"}
+{"timestamp":"2026-01-09T08:07:58.072Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":400,"duration":"2ms"}
+{"timestamp":"2026-01-09T08:07:58.073Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:07:58.074Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":400,"duration":"1ms"}
+{"timestamp":"2026-01-09T08:07:58.076Z","level":"INFO","message":"API Request","method":"POST","url":"/api/save","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:07:58.077Z","level":"INFO","message":"Save request received","promptLength":0,"responseLength":4,"ip":"::1"}
+{"timestamp":"2026-01-09T08:07:58.077Z","level":"WARN","message":"Invalid save data validation","errors":["Prompt is required"],"ip":"::1"}
+{"timestamp":"2026-01-09T08:07:58.078Z","level":"INFO","message":"API Response","method":"POST","url":"/api/save","statusCode":400,"duration":"2ms"}
+{"timestamp":"2026-01-09T08:07:58.079Z","level":"INFO","message":"API Request","method":"GET","url":"/api/invalid","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:07:58.080Z","level":"WARN","message":"Route not found","method":"GET","url":"/api/invalid","ip":"::1"}
+{"timestamp":"2026-01-09T08:07:58.080Z","level":"INFO","message":"API Response","method":"GET","url":"/api/invalid","statusCode":404,"duration":"1ms"}
+{"timestamp":"2026-01-09T08:09:44.246Z","level":"INFO","message":"API Request","method":"GET","url":"/health","ip":"::1"}
+{"timestamp":"2026-01-09T08:09:44.247Z","level":"INFO","message":"API Response","method":"GET","url":"/health","statusCode":200,"duration":"1ms"}
+{"timestamp":"2026-01-09T08:09:44.252Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:09:44.252Z","level":"INFO","message":"AI request received","promptLength":55,"ip":"::1"}
+{"timestamp":"2026-01-09T08:09:49.165Z","level":"INFO","message":"AI request completed successfully","duration":"4913ms","responseLength":656,"ip":"::1"}
+{"timestamp":"2026-01-09T08:09:49.167Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"4915ms"}
+{"timestamp":"2026-01-09T08:09:49.169Z","level":"INFO","message":"API Request","method":"POST","url":"/api/save","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:09:49.171Z","level":"INFO","message":"Save request received","promptLength":55,"responseLength":656,"ip":"::1"}
+{"timestamp":"2026-01-09T08:09:49.196Z","level":"INFO","message":"Save request completed successfully","duration":"24ms","documentId":"6960b7cd75e80d1b3bcebcf2","ip":"::1"}
+{"timestamp":"2026-01-09T08:09:49.198Z","level":"INFO","message":"API Response","method":"POST","url":"/api/save","statusCode":201,"duration":"29ms"}
+{"timestamp":"2026-01-09T08:09:49.204Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:09:49.206Z","level":"INFO","message":"AI request received","promptLength":14,"ip":"::1"}
+{"timestamp":"2026-01-09T08:09:50.210Z","level":"INFO","message":"AI request completed successfully","duration":"1004ms","responseLength":18,"ip":"::1"}
+{"timestamp":"2026-01-09T08:09:50.211Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"1007ms"}
+{"timestamp":"2026-01-09T08:09:50.721Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:09:50.723Z","level":"INFO","message":"AI request received","promptLength":36,"ip":"::1"}
+{"timestamp":"2026-01-09T08:09:53.303Z","level":"INFO","message":"AI request completed successfully","duration":"2579ms","responseLength":357,"ip":"::1"}
+{"timestamp":"2026-01-09T08:09:53.305Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"2584ms"}
+{"timestamp":"2026-01-09T08:09:53.812Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:09:53.814Z","level":"INFO","message":"AI request received","promptLength":19,"ip":"::1"}
+{"timestamp":"2026-01-09T08:09:57.685Z","level":"INFO","message":"AI request completed successfully","duration":"3871ms","responseLength":677,"ip":"::1"}
+{"timestamp":"2026-01-09T08:09:57.688Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"3876ms"}
+{"timestamp":"2026-01-09T08:09:58.194Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:09:58.195Z","level":"INFO","message":"AI request received","promptLength":0,"ip":"::1"}
+{"timestamp":"2026-01-09T08:09:58.196Z","level":"WARN","message":"Invalid prompt validation","errors":["Prompt is required"],"ip":"::1"}
+{"timestamp":"2026-01-09T08:09:58.197Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":400,"duration":"3ms"}
+{"timestamp":"2026-01-09T08:09:58.201Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:09:58.202Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":400,"duration":"1ms"}
+{"timestamp":"2026-01-09T08:09:58.204Z","level":"ERROR","message":"Unexpected token 'i', \"invalid json\" is not valid JSON","name":"SyntaxError","stack":"SyntaxError: Unexpected token 'i', \"invalid json\" is not valid JSON\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\body-parser\\lib\\types\\json.js:116:10)\n    at parse (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\body-parser\\lib\\types\\json.js:68:15)\n    at C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\body-parser\\lib\\read.js:163:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)","params":{},"query":{},"request":{"method":"POST","url":"/api/ask-ai","ip":"::1"}}
+{"timestamp":"2026-01-09T08:09:58.212Z","level":"INFO","message":"API Request","method":"POST","url":"/api/save","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:09:58.213Z","level":"INFO","message":"Save request received","promptLength":0,"responseLength":4,"ip":"::1"}
+{"timestamp":"2026-01-09T08:09:58.215Z","level":"WARN","message":"Invalid save data validation","errors":["Prompt is required"],"ip":"::1"}
+{"timestamp":"2026-01-09T08:09:58.217Z","level":"INFO","message":"API Response","method":"POST","url":"/api/save","statusCode":400,"duration":"5ms"}
+{"timestamp":"2026-01-09T08:09:58.219Z","level":"INFO","message":"API Request","method":"POST","url":"/api/save","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:09:58.221Z","level":"INFO","message":"API Response","method":"POST","url":"/api/save","statusCode":400,"duration":"2ms"}
+{"timestamp":"2026-01-09T08:09:58.223Z","level":"INFO","message":"API Request","method":"GET","url":"/api/nonexistent","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:09:58.224Z","level":"WARN","message":"Route not found","method":"GET","url":"/api/nonexistent","ip":"::1"}
+{"timestamp":"2026-01-09T08:09:58.227Z","level":"INFO","message":"API Response","method":"GET","url":"/api/nonexistent","statusCode":404,"duration":"4ms"}
+{"timestamp":"2026-01-09T08:09:58.229Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:09:58.230Z","level":"INFO","message":"AI request received","promptLength":26,"ip":"::1"}
+{"timestamp":"2026-01-09T08:10:16.257Z","level":"INFO","message":"AI request completed successfully","duration":"18027ms","responseLength":3159,"ip":"::1"}
+{"timestamp":"2026-01-09T08:10:16.259Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"18030ms"}
+{"timestamp":"2026-01-09T08:10:16.261Z","level":"INFO","message":"API Request","method":"GET","url":"/health","ip":"::1"}
+{"timestamp":"2026-01-09T08:10:16.263Z","level":"INFO","message":"API Response","method":"GET","url":"/health","statusCode":200,"duration":"2ms"}
+{"timestamp":"2026-01-09T08:10:26.996Z","level":"INFO","message":"API Request","method":"GET","url":"/health","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:10:26.997Z","level":"INFO","message":"API Response","method":"GET","url":"/health","statusCode":200,"duration":"1ms"}
+{"timestamp":"2026-01-09T08:10:27.001Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:10:27.001Z","level":"INFO","message":"AI request received","promptLength":26,"ip":"::1"}
+{"timestamp":"2026-01-09T08:10:28.348Z","level":"ERROR","message":"AI request failed","error":"Provider returned error","duration":"1346ms","ip":"::1","stack":"Error: Provider returned error\n    at IncomingMessage.<anonymous> (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\services\\openRouterClient.js:151:22)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"}
+{"timestamp":"2026-01-09T08:10:28.350Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":500,"duration":"1349ms"}
+{"timestamp":"2026-01-09T08:10:28.354Z","level":"INFO","message":"API Request","method":"POST","url":"/api/save","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:10:28.355Z","level":"INFO","message":"Save request received","promptLength":11,"responseLength":13,"ip":"::1"}
+{"timestamp":"2026-01-09T08:10:28.364Z","level":"INFO","message":"Save request completed successfully","duration":"9ms","documentId":"6960b7f475e80d1b3bcebcf4","ip":"::1"}
+{"timestamp":"2026-01-09T08:10:28.365Z","level":"INFO","message":"API Response","method":"POST","url":"/api/save","statusCode":201,"duration":"11ms"}
+{"timestamp":"2026-01-09T08:10:43.547Z","level":"INFO","message":"API Request","method":"GET","url":"/health","ip":"::1"}
+{"timestamp":"2026-01-09T08:10:43.548Z","level":"INFO","message":"API Response","method":"GET","url":"/health","statusCode":200,"duration":"1ms"}
+{"timestamp":"2026-01-09T08:10:43.554Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:10:43.554Z","level":"INFO","message":"AI request received","promptLength":61,"ip":"::1"}
+{"timestamp":"2026-01-09T08:10:45.494Z","level":"INFO","message":"AI request completed successfully","duration":"1940ms","responseLength":48,"ip":"::1"}
+{"timestamp":"2026-01-09T08:10:45.497Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"1943ms"}
+{"timestamp":"2026-01-09T08:10:45.500Z","level":"INFO","message":"API Request","method":"POST","url":"/api/save","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:10:45.501Z","level":"INFO","message":"Save request received","promptLength":61,"responseLength":48,"ip":"::1"}
+{"timestamp":"2026-01-09T08:10:45.510Z","level":"INFO","message":"Save request completed successfully","duration":"9ms","documentId":"6960b80575e80d1b3bcebcf6","ip":"::1"}
+{"timestamp":"2026-01-09T08:10:45.512Z","level":"INFO","message":"API Response","method":"POST","url":"/api/save","statusCode":201,"duration":"12ms"}
+{"timestamp":"2026-01-09T08:10:45.515Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:10:45.516Z","level":"INFO","message":"AI request received","promptLength":54,"ip":"::1"}
+{"timestamp":"2026-01-09T08:10:46.801Z","level":"INFO","message":"AI request completed successfully","duration":"1284ms","responseLength":31,"ip":"::1"}
+{"timestamp":"2026-01-09T08:10:46.802Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"1287ms"}
+{"timestamp":"2026-01-09T08:10:46.804Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:10:46.805Z","level":"INFO","message":"AI request received","promptLength":0,"ip":"::1"}
+{"timestamp":"2026-01-09T08:10:46.806Z","level":"WARN","message":"Invalid prompt validation","errors":["Prompt is required"],"ip":"::1"}
+{"timestamp":"2026-01-09T08:10:46.808Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":400,"duration":"4ms"}
+{"timestamp":"2026-01-09T08:10:46.811Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:10:46.812Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":400,"duration":"1ms"}
+{"timestamp":"2026-01-09T08:10:46.815Z","level":"ERROR","message":"Unexpected token 'i', \"invalid json\" is not valid JSON","name":"SyntaxError","stack":"SyntaxError: Unexpected token 'i', \"invalid json\" is not valid JSON\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\body-parser\\lib\\types\\json.js:116:10)\n    at parse (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\body-parser\\lib\\types\\json.js:68:15)\n    at C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\body-parser\\lib\\read.js:163:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)","params":{},"query":{},"request":{"method":"POST","url":"/api/ask-ai","ip":"::1"}}
+{"timestamp":"2026-01-09T08:10:46.820Z","level":"INFO","message":"API Request","method":"POST","url":"/api/save","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:10:46.822Z","level":"INFO","message":"Save request received","promptLength":0,"responseLength":13,"ip":"::1"}
+{"timestamp":"2026-01-09T08:10:46.824Z","level":"WARN","message":"Invalid save data validation","errors":["Prompt is required"],"ip":"::1"}
+{"timestamp":"2026-01-09T08:10:46.828Z","level":"INFO","message":"API Response","method":"POST","url":"/api/save","statusCode":400,"duration":"8ms"}
+{"timestamp":"2026-01-09T08:10:46.833Z","level":"INFO","message":"API Request","method":"POST","url":"/api/save","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:10:46.836Z","level":"INFO","message":"API Response","method":"POST","url":"/api/save","statusCode":400,"duration":"3ms"}
+{"timestamp":"2026-01-09T08:10:46.838Z","level":"INFO","message":"API Request","method":"GET","url":"/api/nonexistent","ip":"::1"}
+{"timestamp":"2026-01-09T08:10:46.840Z","level":"WARN","message":"Route not found","method":"GET","url":"/api/nonexistent","ip":"::1"}
+{"timestamp":"2026-01-09T08:10:46.842Z","level":"INFO","message":"API Response","method":"GET","url":"/api/nonexistent","statusCode":404,"duration":"4ms"}
+{"timestamp":"2026-01-09T08:10:46.847Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:10:46.848Z","level":"INFO","message":"AI request received","promptLength":22,"ip":"::1"}
+{"timestamp":"2026-01-09T08:10:49.798Z","level":"INFO","message":"AI request completed successfully","duration":"2950ms","responseLength":501,"ip":"::1"}
+{"timestamp":"2026-01-09T08:10:49.800Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"2953ms"}
+{"timestamp":"2026-01-09T08:10:49.802Z","level":"INFO","message":"API Request","method":"GET","url":"/api/test","ip":"::1"}
+{"timestamp":"2026-01-09T08:10:49.805Z","level":"INFO","message":"API Response","method":"GET","url":"/api/test","statusCode":200,"duration":"3ms"}
+{"timestamp":"2026-01-09T08:10:49.809Z","level":"INFO","message":"API Request","method":"POST","url":"/api/save","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:10:49.810Z","level":"INFO","message":"Save request received","promptLength":38,"responseLength":40,"ip":"::1"}
+{"timestamp":"2026-01-09T08:10:49.822Z","level":"INFO","message":"Save request completed successfully","duration":"12ms","documentId":"6960b80975e80d1b3bcebcf8","ip":"::1"}
+{"timestamp":"2026-01-09T08:10:49.824Z","level":"INFO","message":"API Response","method":"POST","url":"/api/save","statusCode":201,"duration":"15ms"}
+{"timestamp":"2026-01-09T08:12:13.702Z","level":"INFO","message":"API Request","method":"GET","url":"/health","ip":"::1"}
+{"timestamp":"2026-01-09T08:12:13.703Z","level":"INFO","message":"API Response","method":"GET","url":"/health","statusCode":200,"duration":"1ms"}
+{"timestamp":"2026-01-09T08:12:13.709Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:12:13.710Z","level":"INFO","message":"AI request received","promptLength":53,"ip":"::1"}
+{"timestamp":"2026-01-09T08:12:16.185Z","level":"INFO","message":"AI request completed successfully","duration":"2475ms","responseLength":463,"ip":"::1"}
+{"timestamp":"2026-01-09T08:12:16.187Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"2478ms"}
+{"timestamp":"2026-01-09T08:12:16.191Z","level":"INFO","message":"API Request","method":"POST","url":"/api/save","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:12:16.192Z","level":"INFO","message":"Save request received","promptLength":53,"responseLength":463,"ip":"::1"}
+{"timestamp":"2026-01-09T08:12:16.212Z","level":"INFO","message":"Save request completed successfully","duration":"20ms","documentId":"6960b86075e80d1b3bcebcfa","ip":"::1"}
+{"timestamp":"2026-01-09T08:12:16.213Z","level":"INFO","message":"API Response","method":"POST","url":"/api/save","statusCode":201,"duration":"22ms"}
+{"timestamp":"2026-01-09T08:12:16.215Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:12:16.215Z","level":"INFO","message":"AI request received","promptLength":15,"ip":"::1"}
+{"timestamp":"2026-01-09T08:12:16.828Z","level":"INFO","message":"AI request completed successfully","duration":"613ms","responseLength":4,"ip":"::1"}
+{"timestamp":"2026-01-09T08:12:16.830Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"615ms"}
+{"timestamp":"2026-01-09T08:12:17.835Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:12:17.837Z","level":"INFO","message":"AI request received","promptLength":35,"ip":"::1"}
+{"timestamp":"2026-01-09T08:12:19.039Z","level":"INFO","message":"AI request completed successfully","duration":"1202ms","responseLength":192,"ip":"::1"}
+{"timestamp":"2026-01-09T08:12:19.041Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"1206ms"}
+{"timestamp":"2026-01-09T08:12:20.049Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:12:20.050Z","level":"INFO","message":"AI request received","promptLength":30,"ip":"::1"}
+{"timestamp":"2026-01-09T08:12:20.857Z","level":"INFO","message":"AI request completed successfully","duration":"807ms","responseLength":42,"ip":"::1"}
+{"timestamp":"2026-01-09T08:12:20.860Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"811ms"}
+{"timestamp":"2026-01-09T08:12:21.872Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:12:21.873Z","level":"INFO","message":"AI request received","promptLength":0,"ip":"::1"}
+{"timestamp":"2026-01-09T08:12:21.875Z","level":"WARN","message":"Invalid prompt validation","errors":["Prompt is required"],"ip":"::1"}
+{"timestamp":"2026-01-09T08:12:21.877Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":400,"duration":"5ms"}
+{"timestamp":"2026-01-09T08:12:21.880Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:12:21.882Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":400,"duration":"2ms"}
+{"timestamp":"2026-01-09T08:12:21.885Z","level":"INFO","message":"API Request","method":"POST","url":"/api/save","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:12:21.886Z","level":"INFO","message":"Save request received","promptLength":0,"responseLength":4,"ip":"::1"}
+{"timestamp":"2026-01-09T08:12:21.886Z","level":"WARN","message":"Invalid save data validation","errors":["Prompt is required"],"ip":"::1"}
+{"timestamp":"2026-01-09T08:12:21.889Z","level":"INFO","message":"API Response","method":"POST","url":"/api/save","statusCode":400,"duration":"4ms"}
+{"timestamp":"2026-01-09T08:12:21.893Z","level":"INFO","message":"API Request","method":"GET","url":"/api/invalid","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:12:21.895Z","level":"WARN","message":"Route not found","method":"GET","url":"/api/invalid","ip":"::1"}
+{"timestamp":"2026-01-09T08:12:21.897Z","level":"INFO","message":"API Response","method":"GET","url":"/api/invalid","statusCode":404,"duration":"4ms"}
+{"timestamp":"2026-01-09T08:14:03.286Z","level":"INFO","message":"API Request","method":"GET","url":"/health","ip":"::1"}
+{"timestamp":"2026-01-09T08:14:03.287Z","level":"INFO","message":"API Response","method":"GET","url":"/health","statusCode":200,"duration":"1ms"}
+{"timestamp":"2026-01-09T08:14:03.293Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:14:03.293Z","level":"INFO","message":"AI request received","promptLength":53,"ip":"::1"}
+{"timestamp":"2026-01-09T08:14:05.896Z","level":"INFO","message":"AI request completed successfully","duration":"2603ms","responseLength":439,"ip":"::1"}
+{"timestamp":"2026-01-09T08:14:05.899Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"2606ms"}
+{"timestamp":"2026-01-09T08:14:05.901Z","level":"INFO","message":"API Request","method":"POST","url":"/api/save","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:14:05.902Z","level":"INFO","message":"Save request received","promptLength":53,"responseLength":439,"ip":"::1"}
+{"timestamp":"2026-01-09T08:14:05.912Z","level":"INFO","message":"Save request completed successfully","duration":"10ms","documentId":"6960b8cd75e80d1b3bcebcfc","ip":"::1"}
+{"timestamp":"2026-01-09T08:14:05.913Z","level":"INFO","message":"API Response","method":"POST","url":"/api/save","statusCode":201,"duration":"12ms"}
+{"timestamp":"2026-01-09T08:14:05.918Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:14:05.919Z","level":"INFO","message":"AI request received","promptLength":15,"ip":"::1"}
+{"timestamp":"2026-01-09T08:14:07.252Z","level":"INFO","message":"AI request completed successfully","duration":"1333ms","responseLength":8,"ip":"::1"}
+{"timestamp":"2026-01-09T08:14:07.254Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"1336ms"}
+{"timestamp":"2026-01-09T08:14:08.260Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:14:08.262Z","level":"INFO","message":"AI request received","promptLength":35,"ip":"::1"}
+{"timestamp":"2026-01-09T08:14:10.580Z","level":"INFO","message":"AI request completed successfully","duration":"2318ms","responseLength":172,"ip":"::1"}
+{"timestamp":"2026-01-09T08:14:10.582Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"2322ms"}
+{"timestamp":"2026-01-09T08:14:11.591Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:14:11.592Z","level":"INFO","message":"AI request received","promptLength":30,"ip":"::1"}
+{"timestamp":"2026-01-09T08:14:12.875Z","level":"INFO","message":"AI request completed successfully","duration":"1283ms","responseLength":37,"ip":"::1"}
+{"timestamp":"2026-01-09T08:14:12.877Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"1286ms"}
+{"timestamp":"2026-01-09T08:14:13.889Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:14:13.890Z","level":"INFO","message":"AI request received","promptLength":0,"ip":"::1"}
+{"timestamp":"2026-01-09T08:14:13.890Z","level":"WARN","message":"Invalid prompt validation","errors":["Prompt is required"],"ip":"::1"}
+{"timestamp":"2026-01-09T08:14:13.891Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":400,"duration":"2ms"}
+{"timestamp":"2026-01-09T08:14:13.893Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:14:13.894Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":400,"duration":"1ms"}
+{"timestamp":"2026-01-09T08:14:13.896Z","level":"INFO","message":"API Request","method":"POST","url":"/api/save","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:14:13.902Z","level":"INFO","message":"Save request received","promptLength":0,"responseLength":4,"ip":"::1"}
+{"timestamp":"2026-01-09T08:14:13.905Z","level":"WARN","message":"Invalid save data validation","errors":["Prompt is required"],"ip":"::1"}
+{"timestamp":"2026-01-09T08:14:13.906Z","level":"INFO","message":"API Response","method":"POST","url":"/api/save","statusCode":400,"duration":"10ms"}
+{"timestamp":"2026-01-09T08:14:13.911Z","level":"INFO","message":"API Request","method":"GET","url":"/api/invalid","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:14:13.912Z","level":"WARN","message":"Route not found","method":"GET","url":"/api/invalid","ip":"::1"}
+{"timestamp":"2026-01-09T08:14:13.913Z","level":"INFO","message":"API Response","method":"GET","url":"/api/invalid","statusCode":404,"duration":"2ms"}
+{"timestamp":"2026-01-09T08:14:24.443Z","level":"INFO","message":"API Request","method":"GET","url":"/health","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:14:24.444Z","level":"INFO","message":"API Response","method":"GET","url":"/health","statusCode":200,"duration":"1ms"}
+{"timestamp":"2026-01-09T08:14:24.447Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:14:24.448Z","level":"INFO","message":"AI request received","promptLength":26,"ip":"::1"}
+{"timestamp":"2026-01-09T08:14:26.525Z","level":"INFO","message":"AI request completed successfully","duration":"2077ms","responseLength":5,"ip":"::1"}
+{"timestamp":"2026-01-09T08:14:26.527Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"2080ms"}
+{"timestamp":"2026-01-09T08:14:26.532Z","level":"INFO","message":"API Request","method":"POST","url":"/api/save","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:14:26.533Z","level":"INFO","message":"Save request received","promptLength":11,"responseLength":13,"ip":"::1"}
+{"timestamp":"2026-01-09T08:14:26.554Z","level":"INFO","message":"Save request completed successfully","duration":"21ms","documentId":"6960b8e275e80d1b3bcebcfe","ip":"::1"}
+{"timestamp":"2026-01-09T08:14:26.557Z","level":"INFO","message":"API Response","method":"POST","url":"/api/save","statusCode":201,"duration":"24ms"}
+{"timestamp":"2026-01-09T08:16:21.801Z","level":"INFO","message":"API Request","method":"GET","url":"/health","ip":"::1"}
+{"timestamp":"2026-01-09T08:16:21.804Z","level":"INFO","message":"API Response","method":"GET","url":"/health","statusCode":200,"duration":"3ms"}
+{"timestamp":"2026-01-09T08:16:21.809Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:16:21.810Z","level":"INFO","message":"AI request received","promptLength":55,"ip":"::1"}
+{"timestamp":"2026-01-09T08:16:46.817Z","level":"ERROR","message":"AI request failed","error":"AI request timeout","duration":"25007ms","ip":"::1","stack":"Error: AI request timeout\n    at Timeout._onTimeout (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\routes\\ai.js:61:33)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)"}
+{"timestamp":"2026-01-09T08:16:46.821Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":503,"duration":"25012ms"}
+{"timestamp":"2026-01-09T08:16:46.827Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:16:46.828Z","level":"INFO","message":"AI request received","promptLength":14,"ip":"::1"}
+{"timestamp":"2026-01-09T08:16:47.890Z","level":"INFO","message":"AI request completed successfully","duration":"1062ms","responseLength":7,"ip":"::1"}
+{"timestamp":"2026-01-09T08:16:47.892Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"1065ms"}
+{"timestamp":"2026-01-09T08:16:48.402Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:16:48.404Z","level":"INFO","message":"AI request received","promptLength":36,"ip":"::1"}
+{"timestamp":"2026-01-09T08:16:49.220Z","level":"INFO","message":"AI request completed successfully","duration":"816ms","responseLength":110,"ip":"::1"}
+{"timestamp":"2026-01-09T08:16:49.223Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"821ms"}
+{"timestamp":"2026-01-09T08:16:49.727Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:16:49.728Z","level":"INFO","message":"AI request received","promptLength":19,"ip":"::1"}
+{"timestamp":"2026-01-09T08:16:51.918Z","level":"INFO","message":"AI request completed successfully","duration":"2190ms","responseLength":439,"ip":"::1"}
+{"timestamp":"2026-01-09T08:16:51.920Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"2193ms"}
+{"timestamp":"2026-01-09T08:16:52.432Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:16:52.433Z","level":"INFO","message":"AI request received","promptLength":0,"ip":"::1"}
+{"timestamp":"2026-01-09T08:16:52.434Z","level":"WARN","message":"Invalid prompt validation","errors":["Prompt is required"],"ip":"::1"}
+{"timestamp":"2026-01-09T08:16:52.436Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":400,"duration":"4ms"}
+{"timestamp":"2026-01-09T08:16:52.440Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:16:52.441Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":400,"duration":"2ms"}
+{"timestamp":"2026-01-09T08:16:52.445Z","level":"ERROR","message":"Unexpected token 'i', \"invalid json\" is not valid JSON","name":"SyntaxError","stack":"SyntaxError: Unexpected token 'i', \"invalid json\" is not valid JSON\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\body-parser\\lib\\types\\json.js:116:10)\n    at parse (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\body-parser\\lib\\types\\json.js:68:15)\n    at C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\body-parser\\lib\\read.js:163:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\dhoke\\OneDrive\\Documents\\React\\Future-Blink-MERN-Stack-Task\\backend\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)","params":{},"query":{},"request":{"method":"POST","url":"/api/ask-ai","ip":"::1"}}
+{"timestamp":"2026-01-09T08:16:52.452Z","level":"INFO","message":"API Request","method":"POST","url":"/api/save","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:16:52.454Z","level":"INFO","message":"Save request received","promptLength":0,"responseLength":4,"ip":"::1"}
+{"timestamp":"2026-01-09T08:16:52.456Z","level":"WARN","message":"Invalid save data validation","errors":["Prompt is required"],"ip":"::1"}
+{"timestamp":"2026-01-09T08:16:52.458Z","level":"INFO","message":"API Response","method":"POST","url":"/api/save","statusCode":400,"duration":"6ms"}
+{"timestamp":"2026-01-09T08:16:52.464Z","level":"INFO","message":"API Request","method":"POST","url":"/api/save","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:16:52.466Z","level":"INFO","message":"API Response","method":"POST","url":"/api/save","statusCode":400,"duration":"2ms"}
+{"timestamp":"2026-01-09T08:16:52.467Z","level":"INFO","message":"API Request","method":"GET","url":"/api/nonexistent","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:16:52.468Z","level":"WARN","message":"Route not found","method":"GET","url":"/api/nonexistent","ip":"::1"}
+{"timestamp":"2026-01-09T08:16:52.470Z","level":"INFO","message":"API Response","method":"GET","url":"/api/nonexistent","statusCode":404,"duration":"3ms"}
+{"timestamp":"2026-01-09T08:16:52.473Z","level":"INFO","message":"API Request","method":"POST","url":"/api/ask-ai","ip":"::1","contentType":"application/json"}
+{"timestamp":"2026-01-09T08:16:52.474Z","level":"INFO","message":"AI request received","promptLength":26,"ip":"::1"}
+{"timestamp":"2026-01-09T08:17:02.194Z","level":"INFO","message":"AI request completed successfully","duration":"9720ms","responseLength":2854,"ip":"::1"}
+{"timestamp":"2026-01-09T08:17:02.195Z","level":"INFO","message":"API Response","method":"POST","url":"/api/ask-ai","statusCode":200,"duration":"9722ms"}
+{"timestamp":"2026-01-09T08:17:02.197Z","level":"INFO","message":"API Request","method":"GET","url":"/health","ip":"::1"}
+{"timestamp":"2026-01-09T08:17:02.197Z","level":"INFO","message":"API Response","method":"GET","url":"/health","statusCode":200,"duration":"1ms"}
